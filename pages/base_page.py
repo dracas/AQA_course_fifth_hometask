@@ -1,9 +1,6 @@
-
-from selenium.common.exceptions import NoSuchElementException
-
-from .locators import BasepageLocators
-
 import logging
+from selenium.common.exceptions import NoSuchElementException
+from .locators import BasepageLocators
 LOGGER = logging.getLogger()
 
 
