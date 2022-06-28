@@ -10,6 +10,7 @@ class BasePage:
         self.url = url
 
     def open(self):
+        self.browser.set_window_size('1200', '800')
         self.browser.get(self.url)
 
     def go_to_elements_page(self):
